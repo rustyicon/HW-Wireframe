@@ -1,58 +1,93 @@
-* {
-	box-sizing: border-box, grey;
-	text-align:center;
+body {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px
+}
+.container {
+
+	display: block;
+	width: 1425px;
+	height: 940px;
+	text-align: center;
+	position: absolute;
+	background-color:#777;
 }
 #header {
-	margin-bottom: 15px;
+	margin-top:10px;
+	margin-left: 200px; 
+	margin-right:65px;
+	margin-bottom:20px;
+	height:70px;
+	width: 1000px;
 	font-size:15px;
-	color: grey;
+	color: #777;
 	text-align:center;
-	background:#777;
+	vertical-align: middle;
+	background: #ebebeb ;
+	
 }
 #nav {
-	margin-bottom: 15px;
-	font-size:15px;
-	color:grey;
-	text-align:center;
-	background-color:#777;
-}
-.wrapper {
-	width:600px;
-	padding:20px;
-	margin: 0 auto;
-}
-#section {
-	position:absolute;
-	height:200px;
-	padding:20px;
+	margin-top:10px;
+	margin-left: 200px; 
+	margin-right:65px;
 	margin-bottom:20px;
-	font-size: 15px;
-	color:grey;
+	height:70px;
+	width: 1000px;
+	font-size:15px;
+	color: #777;
 	text-align:center;
-	background-color:#777;
+	background: #ebebeb ;
 }
-.article {
-	position:absolute;
-	height:200px;
-	padding:20px;
-	font-size: 15px;
-	color:white;
-	background-color: grey;	
+section{
+	margin-left:200px;
+	width:495px;
+	height: 300px;
+	float:left;
+	color:#777;
+	background-color: #ebebeb;
+}
+#article {
+	height: 200px;
+	width:480px;
+	margin-top: 50px;
+	margin-left: 5px;
+	margin-right: 20px;
+	color:#ebebeb;
+	background: #777;
 }
 #headers {
-	position:absolute;
-	height:100px;
-	padding:20px;
-	margin-bottom:20px;
-	font-size: 15px;
-	background-color:white;
+	margin-top: 35px;
+	margin-left:25px;
+	margin-right:25px;
+	height:55px;
+	color: #777;
+	background: #ebebeb;
 }
-#para {
-	position:absolute;
-	height:100px;
-	padding:20px;
-	margin-bottom:20px;
-	font-size:15px;
-	background-color:white;
-}
+#p {
+	margin-bottom: 25px;
+	height: 55px;
+	margin-left:25px;
+	margin-right:25px;
+	color:#777;
+	background:#ebebeb;
 
+}
+aside {
+	margin-left: 730px;
+	width: 465px;
+	height:300px;
+	overflow: auto;
+	color: #777;
+	background: #ebebeb;
+
+}
+footer {
+	margin-top:20px;
+	margin-left: 200px; 
+	margin-right:65px;
+	margin-bottom:20px;
+	height:70px;
+	width: 1000px;
+	font-size:15px;
+	color: #777;
+	text-align:center;
+	background: #ebebeb ;
